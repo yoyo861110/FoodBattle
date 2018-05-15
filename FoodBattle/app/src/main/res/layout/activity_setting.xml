@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jam68ty.foodbattle.Setting"
+    android:background="@drawable/back">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="88dp"
+        android:layout_height="79dp"
+        app:srcCompat="@drawable/ima"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="43dp"
+        android:background="@drawable/rounded_button"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:background="@drawable/rounded_editext2"
+        android:padding="7dp"/>
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/style"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="201dp"
+        android:background="@drawable/rounded_editext2"
+        android:padding="7dp"/>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/dish"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="258dp"
+        android:background="@drawable/rounded_editext2"
+        android:padding="7dp"/>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="@string/introduce"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="311dp"
+        android:background="@drawable/rounded_editext2"
+        android:padding="7dp"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="382dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="382dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"/>
+</android.support.constraint.ConstraintLayout>

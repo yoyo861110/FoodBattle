@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f44336</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ec5b50</color>
+    <color name="primary_dark_material_light">#fba828</color>
+    <color name="accent_material_light">#fa8c84</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#BFFF4800</color>
+    <color name="tranOrange">#80FF4800</color>
+    <color name="orangePink">#ed6662</color>
+    <color name="tranOrangePink">#80ed6662</color>
+    <color name="tranOrangePink2">#bfed6662</color>
+    <color name="pink">#f1abb6</color>
+    <color name="darkGray">#bf32373a</color>
+    <color name="white">#FFF</color>
+    <color name="white_back">#D9FFFFFF</color>
+
+</resources>
